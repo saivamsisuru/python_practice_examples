@@ -1,0 +1,12 @@
+#demonstrating the functionality of arithmetic operators
+a=float(input("enter value of a: "))
+b=float(input("enter value of b: "))
+print("="*150)
+print("\t addition of a{} and b{} is {}".format(a,b,a+b))
+print("\t subtraction of a{} and b{} is {}".format(a,b,a-b))
+print("\t multiplication of  of a{} and b{} is {}".format(a,b,a*b))
+print("\t Division of a{} and b{} is {}".format(a,b,a/b))
+print("\t floor division of a{} and b{} is {}".format(a,b,a//b))
+print("\t modulo division of a{} and b{} is {}".format(a,b,a%b))
+print("\t exponential of a{} and b{} is {}".format(a,b,a**b))
+print("="*150)

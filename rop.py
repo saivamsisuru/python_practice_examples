@@ -1,0 +1,11 @@
+#demonstrating functionality of relational operators
+a=int(input("enter first value: "))
+b=int(input("enter second value: "))
+print("="*50)
+print("\t{} > {}={}".format(a,b,a>b))
+print("\t{} < {}={}".format(a,b,a<b))
+print("\t{} == {}={}".format(a,b,a==b))
+print("\t{} != {}={}".format(a,b,a!=b))
+print("\t{} >= {}={}".format(a,b,a>=b))
+print("\t{} <= {}={}".format(a,b,a<=b))
+print("="*50)
