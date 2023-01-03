@@ -7,3 +7,5 @@ else:
     while(i<=n):
         print(i)
         i=i+2
+    else:
+        print("="*50)
