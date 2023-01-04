@@ -2,8 +2,7 @@
 n=int(input("enter a number: "))
 rs=1
 i=1
-for i in range(1,n):
+for i in range(1,n+1):
     rs=rs*i
-    i=i+1
 else:
-    print("factorial of {} is {}".format(i,rs*i))
+    print("factorial of {} is {}".format(i,rs))
