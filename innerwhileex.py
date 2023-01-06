@@ -1,0 +1,9 @@
+n=int(input())
+i=1
+while(i<=n):
+    print(i)
+    j=1
+    while(j<=3):
+        print("\t",j)
+        j=j+1
+    i=i+1
