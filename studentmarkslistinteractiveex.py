@@ -22,6 +22,7 @@ while(True):
     percent=(totmarks/300)*100
 
     if(cm<40) or (cppm<40) or (pym<40):
+
         grade="fail"
     else:
         if(totmarks<=300) and (totmarks>=250):
