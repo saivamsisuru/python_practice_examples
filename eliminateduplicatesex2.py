@@ -8,7 +8,7 @@ def removeduplicates(n):
 
     return dlist
 #main program
-n=input("enter a text")
+n=input("enter a text: ")
 dlist=removeduplicates(n)
 
 if(len(dlist)==0):
