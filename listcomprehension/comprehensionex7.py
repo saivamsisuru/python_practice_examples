@@ -1,4 +1,5 @@
 #program for getting even and odd list from the given list by using list comprehension
+"""
 def readvals():
     lst=[]
     n=int(input("enter how many vals u want: "))
@@ -10,6 +11,9 @@ def readvals():
             lst.append(val)
         return lst
 lst=readvals()
+"""
+lst = [int(val) for val in input().split(",")]
+print(lst, type(lst))
 evenlist=[val for val in lst if(val>0) and val%2==0]
 oddlist=[val for val in lst if val>0 and val%2!=0 ]
 print(evenlist)
