@@ -1,0 +1,13 @@
+def Menu():
+    print("=============================")
+    print("\t	Arithmetic Operations")
+    print("	=============================")
+    print("\t	1. Addition")
+    print("\t	2. Substraction")
+    print("\t	3. Multiplication")
+    print("\t	4. Division")
+    print("\t	5. Modulo Division")
+    print("\t	6. Exponentiation")
+    print("\t   7. square root")
+    print("\t	8. Exit")
+    print("	=============================")
