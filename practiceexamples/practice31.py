@@ -4,7 +4,7 @@ lst=[int(val) for val in input().split()]
 slist=[]
 slist=lst.copy()
 for x in lst:
-
+    
         if(x in slist):
             count+=1
         else:
